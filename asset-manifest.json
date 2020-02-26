@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wink_web_application_test/static/css/main.3f6d921a.chunk.css",
+    "main.js": "/wink_web_application_test/static/js/main.26229bec.chunk.js",
+    "main.js.map": "/wink_web_application_test/static/js/main.26229bec.chunk.js.map",
+    "runtime-main.js": "/wink_web_application_test/static/js/runtime-main.299b2bb1.js",
+    "runtime-main.js.map": "/wink_web_application_test/static/js/runtime-main.299b2bb1.js.map",
+    "static/js/2.cbabea5d.chunk.js": "/wink_web_application_test/static/js/2.cbabea5d.chunk.js",
+    "static/js/2.cbabea5d.chunk.js.map": "/wink_web_application_test/static/js/2.cbabea5d.chunk.js.map",
+    "index.html": "/wink_web_application_test/index.html",
+    "precache-manifest.6a891c90e3bda81875501819bce309ab.js": "/wink_web_application_test/precache-manifest.6a891c90e3bda81875501819bce309ab.js",
+    "service-worker.js": "/wink_web_application_test/service-worker.js",
+    "static/css/main.3f6d921a.chunk.css.map": "/wink_web_application_test/static/css/main.3f6d921a.chunk.css.map",
+    "static/js/2.cbabea5d.chunk.js.LICENSE.txt": "/wink_web_application_test/static/js/2.cbabea5d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.299b2bb1.js",
+    "static/js/2.cbabea5d.chunk.js",
+    "static/css/main.3f6d921a.chunk.css",
+    "static/js/main.26229bec.chunk.js"
+  ]
+}
