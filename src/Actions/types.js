@@ -1,0 +1,6 @@
+// Types of the actions.
+const FETCH_SEARCH = "FETCH_SEARCH";
+const PAGE_ELEMENTS = "PAGE_ELEMENTS";
+const PAGE_LIMIT = "PAGE_LIMIT";
+
+export { FETCH_SEARCH, PAGE_ELEMENTS, PAGE_LIMIT };
