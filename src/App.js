@@ -11,9 +11,13 @@ class App extends React.Component {
       <div className="App">
         <BrowserRouter>
           <Switch>
-            <Route path="/" component={Welcome} exact />
             <Route
-              path="/book/:id"
+              path="/wink_web_application_test/"
+              component={Welcome}
+              exact
+            />
+            <Route
+              path="/wink_web_application_test/book/:id"
               render={props => (
                 <BookDetailPage {...props} searchResult={this.props.searches} />
               )}

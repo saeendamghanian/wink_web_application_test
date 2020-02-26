@@ -23,7 +23,7 @@ const SearchResult = ({ maxPageLimit, pageElements, pageNum }) => {
                     {(pageNum - 1) * maxPageLimit + (index + 1)}
                   </th>
                   <td>
-                    <Link to={`/book/${element.id}`}>
+                    <Link to={`/wink_web_application_test/book/${element.id}`}>
                       {element.volumeInfo.title}
                     </Link>
                   </td>
