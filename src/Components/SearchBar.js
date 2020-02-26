@@ -21,6 +21,7 @@ class SearchBar extends React.Component {
     await this.props.fetchSearchReq(this.state.input);
     // Prepare the page elements based on fetched data.
     this.props.showPage(1, this.props.searchResult, this.props.maxPageLimit);
+    this.setState({ input: "" });
   };
 
   handleSelectChange = async e => {
