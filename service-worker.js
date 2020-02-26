@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/wink_web_application_test/precache-manifest.f1d5ebd915fa61b263ba658d0f988ff8.js"
+  "/wink_web_application_test/precache-manifest.f299ed0da7298f262420b13176e63dfa.js"
 );
 
 self.addEventListener('message', (event) => {
