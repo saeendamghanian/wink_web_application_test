@@ -17,12 +17,12 @@ class BookDetailPage extends React.Component {
     return (
       // Create list of book infos.
       <ul id="book-info-container" className="list-group list-group-flush">
-        <li class="list-group-item">{`Title: ${volumeInfo.title}`}</li>
-        <li class="list-group-item">{`Description: ${volumeInfo.description}`}</li>
-        <li class="list-group-item">{`Publisher: ${volumeInfo.publisher}`}</li>
-        <li class="list-group-item">{`PublishedDate: ${volumeInfo.publishedDate}`}</li>
-        <li class="list-group-item">{`Language: ${volumeInfo.language}`}</li>
-        <li class="list-group-item">
+        <li className="list-group-item">{`Title: ${volumeInfo.title}`}</li>
+        <li className="list-group-item">{`Description: ${volumeInfo.description}`}</li>
+        <li className="list-group-item">{`Publisher: ${volumeInfo.publisher}`}</li>
+        <li className="list-group-item">{`PublishedDate: ${volumeInfo.publishedDate}`}</li>
+        <li className="list-group-item">{`Language: ${volumeInfo.language}`}</li>
+        <li className="list-group-item">
           {`InfoLink: `}
           <a
             href={volumeInfo.infoLink}
